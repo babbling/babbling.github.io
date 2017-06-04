@@ -15,7 +15,7 @@ Now let's say you want to insert these into a single 4D Numpy array where the th
 
 We can initialize this new fourth dimension by referencing it with the None term as follows:
 
-```py
+{% highlight python %}
 
 import numpy
 mygray
@@ -29,5 +29,5 @@ print(newarray.shape)
 xtract = newarray[0,:,:]
 plt.imshow(xtract, cmap='gray')
 
-```
+{% endhighlight %}
 
