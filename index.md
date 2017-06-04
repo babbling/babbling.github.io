@@ -1,8 +1,6 @@
 ### Index
 
-Testing if this page works with a change
-=======
-## Welcome to GitHub Pages
+## Welcome to Babbling where I babble about coding stuff
 
 You can use the [editor on GitHub](https://github.com/babbling/babbling.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
 
