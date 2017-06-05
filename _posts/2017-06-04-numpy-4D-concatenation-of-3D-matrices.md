@@ -7,6 +7,7 @@ author:  Babbling Brook
 ---
 
 {{ post.title }} Using post.title
+<br>
 {{ page.title }} Using page.title
 
 
