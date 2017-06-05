@@ -6,7 +6,7 @@ defaults:
     values:
       layout: "default"
 
-theme: jekyll-theme-tactile
+theme: jekyll-theme-midnight
 markdown: kramdown
 
 kramdown:
