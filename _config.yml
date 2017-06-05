@@ -14,3 +14,6 @@ kramdown:
   hard_wrap: false
 
 highlighter: rouge
+
+# Disable excerpts
+excerpt_separator: ""
