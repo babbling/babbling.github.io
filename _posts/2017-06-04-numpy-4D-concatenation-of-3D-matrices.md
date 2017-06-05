@@ -6,9 +6,7 @@ category: numpy matrix
 author:  Babbling Brook
 ---
 
-### Test
-{{ post.title }}
-{{ page.title }}
+### {{ page.title }}
 
 
 What happens when you have a series of RGB images where image is represented as a 3D Numpy array such as (32,32,3)
