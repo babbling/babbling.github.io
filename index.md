@@ -54,6 +54,6 @@ Posts
         {{ post.date | date: '%B %d, %Y' }}
       </span>
     </p>
-    {{ post.excerpt }}
+
   </div>
 {% endfor %}
