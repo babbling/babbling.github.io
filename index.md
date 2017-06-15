@@ -5,6 +5,7 @@
         <img src="{{ site.data.authors[post.author].image_path }}" alt="{{ site.data.authors[post.author].full_name }}" class="profile" />
       </a>
       <a href="{{ post.url }}">{{ post.title }}</a>
+      {{ post.excerpt }}
     </h3>
     <p class="summary">
       {{ post.category }}
