@@ -13,7 +13,7 @@
       {{ post.excerpt }}
       <a href="{{ post.url | prepend: site.baseurl }}">...Read more!</a>
     {% else %}
-      {{ post.content }}
+      {{ post.content | replace_first: '<!--more-->','<br>' }}
     {% endif %}
   </div>
 {% endfor %}
