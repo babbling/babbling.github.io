@@ -16,4 +16,4 @@ kramdown:
 highlighter: rouge
 
 # Disable excerpts
-#excerpt_separator: "<!--excerpt-->"
+excerpt_separator: "<!--more-->"
