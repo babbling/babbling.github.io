@@ -9,6 +9,7 @@ What happens when you have a series of RGB images where image is represented as 
 
 Now let's say you want to insert these into a single 4D Numpy array where the the first axis is the index for each image.
 <!--more-->
+
 We can initialize this new fourth dimension by referencing it with the None term as follows using numpy.concatenate:
 
 
