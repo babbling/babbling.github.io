@@ -15,5 +15,8 @@ kramdown:
 
 highlighter: rouge
 
-# Disable excerpts
+# Define excerpt separator
 excerpt_separator: "<!--more-->"
+
+# Permalink
+permalink: /:year/:month/:day/:title.html
