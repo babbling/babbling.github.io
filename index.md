@@ -9,16 +9,11 @@
       </a>
       <a href="{{ post.url }}">{{ post.title }}</a>
     </h3>
-    {{ post.excerpt }}
     {% if post.content contains site.excerpt_separator %}
-        <a href="{{ post.url | prepend: site.baseurl }}">...Read more</a>
+      {{ post.excerpt }}
+      <a href="{{ post.url | prepend: site.baseurl }}">...Read more</a>
+    {% else %}
+      {{ post.content }}
     {% endif %}
-
-    <!--
-    <p class="summary">
-      {{ post.category }}
-    </p>
-    -->
-
   </div>
 {% endfor %}
