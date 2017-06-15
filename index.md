@@ -7,7 +7,7 @@
       <a href="http://twitter.com/{{ site.data.authors[post.author].twitter_handle }}">
         <img src="{{ site.data.authors[post.author].image_path }}" alt="{{ site.data.authors[post.author].full_name }}" class="profile" />
       </a>
-      <a href="{{ post.url }}">{{ post.title }}</a>
+     <!-- <a href="{{ post.url }}">{{ post.title }}</a> -->
     </h3>
     {% if post.content contains site.excerpt_separator %}
       {{ post.excerpt }}
