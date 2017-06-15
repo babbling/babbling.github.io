@@ -15,7 +15,7 @@ We can initialize this new fourth dimension by referencing it with the None term
 ```python
 import numpy
 mygray
-<!--more-->
+excerptseparator
 print(mygray.shape)
 newarray = mygray[None, :]
 print(newarray.shape)
