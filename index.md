@@ -13,7 +13,7 @@
       {{ post.excerpt }}
       <a href="{{ post.url | prepend: site.baseurl }}">...Read more</a>
     {% else %}
-      {{ post.content | remove_first: 'excerptseparator' }}
+      {{ post.content | remove_first: '<!--excerptseparator-->' }}
     {% endif %}
   </div>
 {% endfor %}
