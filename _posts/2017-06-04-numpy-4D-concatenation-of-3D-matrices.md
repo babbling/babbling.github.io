@@ -15,6 +15,8 @@ Now let's say you want to insert these into a single 4D Numpy array where the th
 
 We can initialize this new fourth dimension by referencing it with the None term as follows using numpy.concatenate:
 
+{{ post.excerpt }}
+
 ```python
 import numpy
 mygray
