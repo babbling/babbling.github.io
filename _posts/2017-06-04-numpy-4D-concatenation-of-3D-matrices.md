@@ -62,3 +62,6 @@ print(newarray.shape)
 xtract = newarray[0,:,:]
 plt.imshow(xtract, cmap='gray')
 ```
+
+{{ page.previous }}
+{{ page.next }}
