@@ -10,11 +10,10 @@
      <!-- <a href="{{ post.url }}">{{ post.title }}</a> -->
     </h3>
     {% if post.content contains site.excerpt_separator %}
-      <a href="{{ post.url | prepend: site.baseurl }}">
-         {{ post.excerpt }}
-      </a>
+      {{ post.excerpt }}
+      <a href="{{ post.url | prepend: site.baseurl }}">... Read more</a>
     {% else %}
-      <!-- {{ post.content | replace_first: '<!--more-->','<br>' }} -->
+      {{ post.content }}
     {% endif %}
   </div>
 {% endfor %}
