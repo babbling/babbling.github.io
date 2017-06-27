@@ -7,13 +7,13 @@
       <a href="http://twitter.com/{{ site.data.authors[post.author].twitter_handle }}">
         <img src="{{ site.data.authors[post.author].image_path }}" alt="{{ site.data.authors[post.author].full_name }}" class="profile" />
       </a>
-      <a href="{{ post.url }}">{{ post.title }}</a>
+     <!-- <a href="{{ post.url }}">{{ post.title }}</a> -->
     </h3>
     {% if post.content contains site.excerpt_separator %}
       {{ post.excerpt }}
-      <a href="{{ post.url | prepend: site.baseurl }}">...Read more</a>
+      <a href="{{ post.url | prepend: site.baseurl }}">... Read more</a>
     {% else %}
-      {{ post.content | remove_first: site.excerpt_separator }}
+      {{ post.content }}
     {% endif %}
   </div>
 {% endfor %}
