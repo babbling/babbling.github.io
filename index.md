@@ -11,11 +11,9 @@
     </h3>
     {% if post.content contains site.excerpt_separator %}
       {{ post.excerpt }}
-      <br>
       <a href="{{ post.url | prepend: site.baseurl }}">... Read more</a>
     {% else %}
       {{ post.content }}
-      <br>
     {% endif %}
   </div>
 {% endfor %}
