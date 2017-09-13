@@ -7,6 +7,7 @@ author:
 ---
 
 **{{ page.title }}**
+
 Definining ndarray specifying shape and type
 
 ```python
