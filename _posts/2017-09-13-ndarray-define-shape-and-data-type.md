@@ -5,9 +5,9 @@ categories:
 category: 
 author:  
 ---
-Defininging ndarray specifying shape and type
 
-<!--more-->
+**{{ page.title }}**
+Defininging ndarray specifying shape and type
 
 ```python
 import numpy
