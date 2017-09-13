@@ -1,5 +1,5 @@
 ---
-title:  ""
+title:  "Defining Numpy ndarray with shape and type specification"
 date:   2017-09-13 00:00:00 -0600
 categories: 
 category: 
@@ -7,7 +7,7 @@ author:
 ---
 
 **{{ page.title }}**
-Defininging ndarray specifying shape and type
+Definining ndarray specifying shape and type
 
 ```python
 import numpy
