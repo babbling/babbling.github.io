@@ -21,7 +21,7 @@ import numpy
 mygray
 
 print(mygray.shape)
-newarray = mygray[None, :]
+newarray = mygray[None, :]  # initialize the array
 print(newarray.shape)
 newarray = numpy.concatenate((newarray, mygray[None, :]), axis=0)
 newarray = numpy.concatenate((newarray, mygray[None, :]), axis=0)
@@ -37,7 +37,7 @@ Here is an equivalent method using numpy.vstack:
 import numpy
 mygray
 print(mygray.shape)
-newarray = mygray[None, :]
+newarray = mygray[None, :]  # initialize the array
 print(newarray.shape)
 newarray = numpy.vstack((newarray, mygray[None, :]))
 newarray = numpy.vstack((newarray, mygray[None, :]))
@@ -53,7 +53,7 @@ Here is an equivalent method using numpy.append:
 import numpy
 mygray
 print(mygray.shape)
-newarray = mygray[None, :]
+newarray = mygray[None, :]  # initialize the array
 print(newarray.shape)
 newarray = numpy.append(newarray, mygray[None, :], axis=0)
 newarray = numpy.append(newarray, mygray[None, :], axis=0)
