@@ -15,6 +15,6 @@
     {% else %}
       {{ post.content }}
     {% endif %}
+    <br>
   </div>
-  <br>
 {% endfor %}
